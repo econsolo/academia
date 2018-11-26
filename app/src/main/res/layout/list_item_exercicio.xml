@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/lbl_nome_exercicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/black" />
+
+
+    <TextView
+        android:id="@+id/lbl_serie_exercicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_nome_exercicio"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+    <TextView
+        android:id="@+id/lbl_carga_exercicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_serie_exercicio"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+    <TextView
+        android:id="@+id/lbl_data_conclusao_exercicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_carga_exercicio"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+    <ImageView
+        android:id="@+id/img_exercicio_concluido"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_check_circle_white_24dp"
+        android:tint="@color/colorGreen"/>
+
+
+</RelativeLayout>
+

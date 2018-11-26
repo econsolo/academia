@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">academia</string>
+    <string name="action_settings">Settings</string>
+    <string name="nome">Nome</string>
+    <string name="preenchimento_obrigatorio">Campo obrigatório</string>
+    <string name="treinos">Treinos</string>
+    <string name="concluir">Concluir</string>
+    <string name="alterar">Alterar</string>
+    <string name="excluir">Excluir</string>
+    <string name="serie">Séries</string>
+    <string name="repeticoes">Repetições</string>
+    <string name="tipo_de_medida">Tipo de Medida</string>
+    <string name="peso_kg">Peso (kg)</string>
+    <string name="tempo">Tempo</string>
+    <string name="exercicios">Exercícios</string>
+    <string name="pref_firebase_instance_id_key">pref_firebase_instance_id</string>
+    <string name="pref_firebase_instance_id_default_key">default</string>
+
+
+    <string name="action_sign_in_short">Registrar</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Senha muito curte, coloca uns 6 caracteres aí</string>
+    <string name="auth_failed">Deu erro pra logar, dá uma olhada no seu email e senha, fazendo favor</string>
+    <string name="change_email">Alterar email</string>
+    <string name="change_password">Alterar senha</string>
+    <string name="send_password_reset_email">Mudar minha senha</string>
+    <string name="remove_user">Remover usuário</string>
+    <string name="new_pass">Nova senha</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Entrar</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Senha</string>
+    <string name="hint_name">Nome completo</string>
+    <string name="btn_login">Entrar</string>
+    <string name="btn_link_to_register">Não é um de nós? Clique e entre pro clube</string>
+    <string name="btn_link_to_login">Já faz parte? Entre aqui</string>
+    <string name="title_activity_reset_password">ResetarSenhaActivity</string>
+    <string name="btn_forgot_password">Esqueceu a senha?</string>
+    <string name="btn_reset_password">Redefinir senha</string>
+    <string name="btn_back">Voltar</string>
+    <string name="hint_new_email">Novo email</string>
+    <string name="btn_change">Alterar</string>
+    <string name="btn_send">Enviar</string>
+    <string name="btn_remove">Remover</string>
+    <string name="btn_sign_out">Sair</string>
+    <string name="lbl_forgot_password">Esqueceu a senha?</string>
+    <string name="forgot_password_msg">Precisamos do seu email para enviarmos a confirmação</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="entrar">Entrar</string>
+    <string name="redefinir_senha">Redefinir Senha</string>
+</resources>

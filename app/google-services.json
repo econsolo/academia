@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "401643049272",
+    "firebase_url": "https://academia-295cb.firebaseio.com",
+    "project_id": "academia-295cb",
+    "storage_bucket": "academia-295cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401643049272:android:374abef1c0bb453e",
+        "android_client_info": {
+          "package_name": "com.consolo.academia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401643049272-svuqfl6vsjqe9drjn1f3n13f1ca7okat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPmuIshR-nlhN6P1AOMCnSjm_7WS395KE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
