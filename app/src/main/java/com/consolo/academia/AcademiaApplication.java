@@ -11,8 +11,7 @@ public class AcademiaApplication extends Application {
         super.onCreate();
         Realm.init(this);
 
-        MyFirebaseInstanceService myFirebaseInstanceService = new MyFirebaseInstanceService();
-        Intent intent= new Intent(getApplicationContext(), myFirebaseInstanceService.getClass());
-        startService(intent);
+        Intent intent = new Intent(getApplicationContext(), ConsultarTreinoActivity.class);
+        //startService(intent);
     }
 }
